@@ -40,7 +40,7 @@ def process_results(movie_list):
     Returns :
         movie_results: A list of movie objects
     '''
-    movie_results = []
+    movie_results   =   []
     for movie_item in movie_list:
         id = movie_item.get('id')
         title = movie_item.get('original_title')
